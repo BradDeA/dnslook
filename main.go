@@ -35,7 +35,7 @@ func main() {
 
 	flag.Parse()
 	if flag.NArg() < 1 {
-		fmt.Println("No Domain Found")
+		fmt.Println("No Domain Provided")
 	}
 	domain := flag.Arg(0)
 	dp, _ := BuildProfile(domain)
